@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Studio Cuts Genève — Coiffeur indépendant à Genève</title>
+  <meta
+    name="description"
+    content="Studio Cuts Genève : coupe homme, barbe et coloration. Réservez votre rendez-vous en ligne, sans appeler ni envoyer de message."
+  />
+  <meta name="theme-color" content="#b5764a" />
+
+  <!-- Partage sur WhatsApp, Instagram, Google -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Studio Cuts Genève — Réservez en ligne" />
+  <meta
+    property="og:description"
+    content="Coupes, barbe et coloration à Genève. Réservez votre créneau en quelques clics."
+  />
+  <meta property="og:image" content="assets/img/og-image.jpg" />
+  <meta property="og:locale" content="fr_CH" />
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- SEO local -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "Studio Cuts Genève",
+      "image": "https://exemple-studio-cuts.ch/assets/img/og-image.jpg",
+      "url": "https://exemple-studio-cuts.ch",
+      "telephone": "+41220000000",
+      "priceRange": "CHF 55 - CHF 150",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rue Exemple 12",
+        "addressLocality": "Genève",
+        "postalCode": "1201",
+        "addressCountry": "CH"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://instagram.com/studiocutsgeneve",
+        "https://wa.me/41790000000"
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo">
+        Studio<span>Cuts</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#prestations">Prestations</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+        <a href="#reservation" class="btn btn-primary nav-cta">
+          Réserver
+        </a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="accueil">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Coiffeur indépendant — Genève</p>
+          <h1>
+            Une coupe qui te ressemble,<br />
+            sans attendre au téléphone.
+          </h1>
+          <p class="hero-subtitle">
+            Coupes homme, barbe et coloration dans un salon chaleureux au cœur
+            de Genève. Réserve ton créneau en ligne, en moins d’une minute.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#reservation" class="btn btn-primary btn-large">
+              Réserver maintenant
+            </a>
+            <a href="#prestations" class="btn btn-outline btn-large">
+              Voir les prestations
+            </a>
+          </div>
+
+          <div class="hero-badges">
+            <span>✔ Réservation en ligne</span>
+            <span>✔ Rappel SMS</span>
+            <span>✔ Sans compte à créer</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card">
+            <p class="hero-card-title">Prochaines disponibilités</p>
+
+            <div class="slot">
+              <span>Demain — 10:00</span>
+              <a href="#reservation" class="btn btn-primary card-btn">Réserver</a>
+            </div>
+
+            <div class="slot">
+              <span>Demain — 14:30</span>
+              <a href="#reservation" class="btn btn-primary card-btn">Réserver</a>
+            </div>
+
+            <div class="slot">
+              <span>Jeudi — 09:15</span>
+              <a href="#reservation" class="btn btn-primary card-btn">Réserver</a>
+            </div>
+
+            <p class="hero-card-note">
+              Démo : les créneaux réels seront gérés par Cal.com.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prestations -->
+    <section class="section" id="prestations">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Prestations</p>
+          <h2>Des services simples et transparents</h2>
+          <p>
+            Choisis ton service, sélectionne un créneau disponible et reçois
+            une confirmation immédiate.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Coupe homme</h3>
+            <p class="card-duration">45 min</p>
+            <p class="card-price">CHF 55</p>
+            <p>
+              Coupe personnalisée, conseils de style et finition soignée.
+            </p>
+            <a href="#reservation" class="btn btn-outline card-btn">
+              Réserver
+            </a>
+          </article>
+
+          <article class="card card-featured">
+            <p class="card-tag">Le plus demandé</p>
+            <h3>Coupe + barbe</h3>
+            <p class="card-duration">1 h</p>
+            <p class="card-price">CHF 75</p>
+            <p>
+              Coupe complète, taille et contour de barbe, pour un rendu net et
+              harmonieux.
+            </p>
+            <a href="#reservation" class="btn btn-primary card-btn">
+              Réserver
+            </a>
+          </article>
+
+          <article class="card">
+            <h3>Coloration</h3>
+            <p class="card-duration">2 h</p>
+            <p class="card-price">Sur devis</p>
+            <p>
+              Coloration, balayage ou retouche de racines, selon ton objectif
+              et ton type de cheveux.
+            </p>
+            <a href="#reservation" class="btn btn-outline card-btn">
+              Réserver
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Avantages -->
+    <section class="section">
+    <div class="container">
+        <div class="section-head">
+        <p class="eyebrow">Pourquoi Studio Cuts</p>
+        <h2>Simple, rapide et sans friction</h2>
+        <p>
+            Fini les messages Instagram sans réponse et les appels pour trouver un
+            créneau. Tout se passe en ligne.
+        </p>
+        </div>
+
+        <div class="benefits">
+        <article class="benefit">
+            <h3>Réservation 24/7</h3>
+            <p>
+            Tes clients choisissent leur service et leur créneau à toute heure,
+            même lorsque le salon est fermé.
+            </p>
+        </article>
+
+        <article class="benefit">
+            <h3>Agenda toujours à jour</h3>
+            <p>
+            Les rendez-vous apparaissent directement dans Google Calendar et les
+            créneaux pris disparaissent automatiquement.
+            </p>
+        </article>
+
+        <article class="benefit">
+            <h3>Rappel SMS</h3>
+            <p>
+            Un SMS automatique est envoyé la veille du rendez-vous pour réduire
+            les oublis.
+            </p>
+        </article>
+        </div>
+    </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="section section-alt" id="galerie">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Galerie</p>
+          <h2>Quelques réalisations</h2>
+          <p>
+            Coupes, barbes et colorations réalisées au salon. Les vraies photos
+            seront ajoutées avec le coiffeur.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=70"
+              alt="Coupe homme réalisée en salon"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=70"
+              alt="Taille de barbe en salon de coiffure"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=70"
+              alt="Coloration et coiffure en salon"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=70"
+              alt="Coiffeur travaillant en salon"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Réservation -->
+    <section class="section booking" id="reservation">
+      <div class="container booking-inner">
+        <div class="booking-text">
+          <p class="eyebrow">Réservation</p>
+          <h2>Réserve ton rendez-vous en ligne</h2>
+          <p>
+            Choisis ta prestation, ton jour et ton heure. Tu recevras une
+            confirmation, puis un rappel SMS la veille du rendez-vous.
+          </p>
+
+          <ul class="booking-list">
+            <li>Aucun compte à créer</li>
+            <li>Créneaux mis à jour automatiquement</li>
+            <li>Rendez-vous visible dans l’agenda du salon</li>
+            <li>Rappel SMS 24 heures avant</li>
+          </ul>
+
+            <a href="#calcom-embed" class="btn btn-outline btn-large">
+            Voir le calendrier ci-contre
+            </a>
+
+            <p class="booking-note">
+            Choisissez votre prestation directement dans le calendrier ci-contre.
+            </p>
+        </div>
+
+        <div class="booking-preview">
+          <div class="booking-box">
+            <p class="booking-box-title">Réservation rapide</p>
+            <p class="booking-box-text">
+              Intégration Cal.com à venir : sélection du service, du créneau,
+              coordonnées et confirmation.
+            </p>
+            <div id="calcom-embed" class="booking-placeholder">
+                Le calendrier de réservation Cal.com apparaîtra ici.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+    <div class="container">
+        <div class="section-head">
+        <p class="eyebrow">Questions fréquentes</p>
+        <h2>Avant de réserver</h2>
+        </div>
+
+        <div class="faq">
+        <details>
+            <summary>Dois-je créer un compte pour réserver ?</summary>
+            <p>Non. Tu choisis ton service, ton créneau, puis tu entres simplement ton nom, ton e-mail et ton numéro de téléphone.</p>
+        </details>
+
+        <details>
+            <summary>Comment annuler ou déplacer mon rendez-vous ?</summary>
+            <p>Utilise le lien présent dans ton e-mail de confirmation, ou contacte le salon par WhatsApp ou téléphone.</p>
+        </details>
+
+        <details>
+            <summary>Recevrai-je un rappel avant mon rendez-vous ?</summary>
+            <p>Oui, un SMS de rappel est envoyé automatiquement 24 heures avant le rendez-vous.</p>
+        </details>
+
+        <details>
+            <summary>Les créneaux affichés sont-ils réellement disponibles ?</summary>
+            <p>Oui. Le calendrier est synchronisé avec l’agenda du salon : un créneau réservé n’est plus proposé.</p>
+        </details>
+        </div>
+    </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Contact</p>
+          <h2>Studio Cuts Genève</h2>
+          <p>
+            Une question, une demande particulière ou un rendez-vous urgent ?
+            Contacte directement le salon.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Adresse</h3>
+            <p>Rue Exemple 12<br />1201 Genève</p>
+            <a
+              class="contact-link"
+              href="https://www.google.com/maps/search/?api=1&query=Rue+Exemple+12+Geneve"
+              target="_blank"
+              rel="noopener"
+            >
+              Voir sur Google Maps
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <h3>Horaires</h3>
+            <p>
+              Lundi — Vendredi : 09:00 – 18:30<br />
+              Samedi : 09:00 – 15:00<br />
+              Dimanche : fermé
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <h3>Contact direct</h3>
+            <p>
+              <a href="tel:+41220000000">+41 22 000 00 00</a><br />
+              <a href="https://wa.me/41790000000" target="_blank" rel="noopener">
+                WhatsApp
+              </a><br />
+              <a href="https://instagram.com/" target="_blank" rel="noopener">
+                Instagram
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe
+            title="Localisation du salon sur Google Maps"
+            src="https://www.google.com/maps?q=Geneve&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Studio Cuts Genève — Tous droits réservés.</p>
+      <p class="footer-small">
+        Site réalisé avec une réservation en ligne simple et des rappels SMS.
+      </p>
+    </div>
+  </footer>
+  <!-- Cal.com embed -->
+<script>
+  (function (C, A, L) {
+    let p = function (a, ar) {
+      a.q.push(ar);
+    };
+    let d = C.document;
+    C.Cal =
+      C.Cal ||
+      function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments);
+          };
+          api.q = [];
+          p(api, ar);
+          return api;
+        }
+        cal.q.push(ar);
+      };
+  })(window, "https://app.cal.com/embed/embed.js", "init");
+
+  Cal("init", "alish-dr2ab6", {
+    origin: "https://cal.com"
+  });
+
+  Cal("inline", {
+    elementOrSelector: "#calcom-embed",
+    calLink: "alish-dr2ab6",
+    config: {
+      layout: "month_view",
+      theme: "light"
+    }
+  });
+
+  Cal("ui", {
+    theme: "light",
+    styles: {
+      branding: {
+        brandColor: "#b5764a"
+      }
+    },
+    hideEventTypeDetails: false,
+    layout: "month_view"
+  });
+</script>
+  <script src="script.js"></script>
+</body>
+</html>
