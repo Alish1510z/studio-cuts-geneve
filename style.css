@@ -631,3 +631,26 @@ p {
     min-height: 700px;
   }
 }
+/* Prochaines disponibilités réelles */
+.availability-service {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+#next-slots .slot {
+  gap: 12px;
+}
+
+#next-slots .slot span {
+  min-width: 0;
+}
+
+#next-slots .slot-link {
+  flex-shrink: 0;
+}
+
+#next-slots .availability-message {
+  padding: 14px 0;
+  font-size: 0.9rem;
+}
